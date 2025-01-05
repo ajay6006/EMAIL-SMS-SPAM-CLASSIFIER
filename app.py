@@ -32,7 +32,7 @@ def transform_text(text):
     return ' '.join(y)
 
 cv = pickle.load(open('cv.pkl', 'rb'))
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('BEST_MODEL.pkl', 'rb'))
 
 st.title("SMS SPAM CLASSIFIER")
 
