@@ -29,13 +29,16 @@ The dataset includes:
 5️⃣ **Evaluation**: Assessed models using **accuracy, precision, recall, and F1-score**.  
 6️⃣ **Deployment**: Hosted the model on **Streamlit** for real-time spam detection.  
 
+
 ## 📊 Model Performance  
-| Model              | Accuracy | Precision | Recall | F1-Score |
-|-------------------|----------|------------|--------|---------|
-| Naïve Bayes        | **98.2%**  | **97.6%**   | **96.8%** | **97.2%** |
-| Logistic Regression | **96.4%**  | **95.1%**   | **92.3%** | **93.6%** |
+| Model                      | Accuracy | Precision | Recall | F1-Score |
+|---------------------------|----------|------------|--------|---------|
+| Naïve Bayes                | **98.2%**  | **97.6%**   | **96.8%** | **97.2%** |
+| Logistic Regression (Tuned) | **98.2%**  | **99.2%**   | **87.0%** | **92.5%** |
 
 ## 📌 Key Findings  
-✔️ **Naïve Bayes performed best** due to its efficiency in text classification.  
-✔️ **Naïve Bayes is the most suitable for real-time spam filtering due to speed & accuracy.**  
+✔️ **Spam messages are usually longer**, containing promotional words and links
+✔️ **Naive Bayes performed best** due to its efficiency in text classification.  
+✔️ **But after Hyperparameter tuning improved Logistic Regression**, increasing accuracy to **98.2%**. 
+
 
