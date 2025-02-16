@@ -37,7 +37,7 @@ The dataset includes:
 | Logistic Regression (Tuned) | **98.2%**  | **99.2%**   | **87.0%** | **92.5%** |
 
 ## 📌 Key Findings  
-✔️ **Spam messages are usually longer**, containing promotional words and links
+✔️ **Spam messages are usually longer**, containing promotional words and links.
 ✔️ **Naive Bayes performed best** due to its efficiency in text classification.  
 ✔️ **But after Hyperparameter tuning improved Logistic Regression**, increasing accuracy to **98.2%**. 
 
